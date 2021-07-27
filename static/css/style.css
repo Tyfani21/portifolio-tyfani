@@ -1,0 +1,435 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200..900"
+);
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Literata', serif;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+/* #A28F9D - roxo claro
+ #5F4061 - roxo escuro
+ #E0948D - rosa claro
+#F06262 - rosa escuro
+ #C73F31 - vermelho*/
+nav{
+    background-color:#19111a ;
+    font-weight: 600;
+    position: fixed;
+    width: 100%;
+}
+nav ul{
+
+    list-style: none;
+    display: flex;
+    justify-content:center;
+}
+nav ul li{
+    padding: 1.5rem;
+}
+nav ul li a{
+    padding: .5rem;
+    text-decoration: none;
+    background-color: #F06262;
+    color: #fff;
+    border: .1rem solid #FAC7BE;
+    border-radius: 1rem;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+}
+
+header div#img-dream{
+    display: flex;
+    justify-content: center;
+}
+
+header#inicio div p{
+    font-size: 3vw;
+    font-weight: 700;
+    color: #19111a;
+}
+
+header#inicio div span{
+    font-size: 2vw;
+    font-weight: 600;
+    color: #F06262;
+    margin-left: 20rem;
+}
+header div#img-dream img{
+    width: 80%;
+ }
+
+ section#sobremim{
+     display: flex;
+     justify-self: center;
+     align-items: center;
+     padding: 3rem;
+     background-color: #19111a;
+ }
+
+ section#sobremim div img{
+     width: 50%;
+     display: block;
+     margin: auto;
+     border: .1rem solid #C73F31;
+     border-radius: 3rem;
+     background-color: #C73F31;
+ }
+
+ section#sobremim div p{
+     padding: 1rem;
+    font-size: 2vw;
+    text-align: justify;
+    color: #fff;
+    line-height: 2.5rem;
+    border: .2rem dotted #F06262;
+    border-radius: 2rem;
+}
+
+section#projetos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    flex-wrap: wrap;   
+}
+
+section#projetos div{
+    width: 18rem;
+}
+section#projetos div img{
+    display: block;
+    margin:auto;
+    width: 250px;
+
+}
+section#projetos div h2{
+    text-align: center;
+    padding: 1rem;
+    font-style:italic;
+}
+
+section#projetos div p{
+    text-align: justify;
+ }
+ 
+ section#projetos div{
+    padding: 2rem;
+ }
+
+section#projetos div button{
+    border: .1rem dotted #19111a;
+    background-color: #FAC7BE;
+    color: #19111a;
+    padding: 1rem;
+    font-size: 2vw;
+    font-weight: 800;
+    border-radius: .5rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: .6s ease-out;
+    
+} 
+
+section#projetos div button a{
+    text-decoration: none;
+    color: #19111a;    
+} 
+
+
+section#projetos div button:hover{
+    background-color: #5f4061;
+    color: #FAC7BE;
+    border: .1rem dotted #FAC7BE;
+    transform: scale(1.5);
+}
+
+section#futuro {
+  padding: 4rem;
+  background-color: #fac7be;
+  display: flex;
+  flex-wrap: wrap;
+}
+section#futuro h2{
+  font-weight: 900;
+  padding-inline: 43%;
+}
+
+section#futuro div{
+    padding: 1.5rem;
+}
+
+section#habilidades{
+    padding: 3rem 10rem 3rem 10rem;
+    background-color: #F06262;
+    text-align:justify;
+  }
+ 
+section#habilidades p{
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #FAC7BE;
+}
+
+section#habilidades h2{
+    color: #19111a;
+}
+section#habilidades div{
+    display: flex;
+    border: .1rem dotted #19111a;
+    border-radius: 1rem;
+    
+ }
+ 
+ section#habilidades div span#python{
+    background-color: #FAC7BE;
+    color: #5f4061;
+    text-align: center;
+    padding: .3rem;
+    border-radius: 1rem;
+    width: 15%;
+ }
+ 
+ section#habilidades div span#html{
+    background-color: #FAC7BE;
+    color: #5f4061;
+    text-align: center;
+    padding: .3rem;
+    border-radius: 1rem;
+    width: 40%;
+ }
+ 
+ section#habilidades div span#css{
+    background-color: #FAC7BE;
+    color: #5f4061;
+    text-align: center;
+    padding: .3rem;
+    border-radius: 1rem;
+    width: 35%;
+ }
+ section#contato {
+    padding: 3rem 10rem 3rem 10rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+ }
+ 
+ section#contato div#redes{
+    width: 100%;
+ }
+ 
+ section#contato div#redes h3{
+    text-align: center;
+    font-size: 2.5rem; 
+    margin-bottom: 2rem; 
+ }
+ 
+ section#contato div#redes div#icons{
+    display: flex;
+    justify-content: center;
+ }
+ 
+ section#contato div#redes div#icons a{
+    text-decoration: none; 
+    color: #F06262;
+    font-size: 4rem;
+    padding: 2rem;
+    transition: all .4s ease-out;
+ }
+ 
+ section#contato div#redes div#icons a:hover{
+    color: #F06262;
+ }
+ 
+ section#contato div#redes div#icons a i{
+    transition: all .4s ease-out;
+ }
+ 
+ section#contato div#redes div#icons a i:hover{
+    transform: scale(1.2);
+ }
+ 
+ section#contato div#form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+ }
+ 
+ section#contato div#form h3{
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+ }
+ 
+ section#contato div#form form{
+    width: 50%;
+ }
+ 
+ section#contato div#form form input, textarea{
+    width: 100%;
+    padding: .5rem;
+    font-size: 1.2rem;
+    border: .1rem solid #FAC7BE;
+    border-radius: .5rem;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    outline: none; 
+ }
+ 
+ section#contato div#form form label{
+    font-size: 1.5rem;
+ }
+ 
+ section#contato div#form form button{
+    border: .1rem dotted #19111a;
+    background-color: #FAC7BE;
+    color: #19111a;
+    padding: 1rem;
+    font-size: 2vw;
+    font-weight: 600;
+    border-radius: .5rem;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    transition: .6s ease-out;
+    width: 40%;
+ }
+ 
+ section#contato div#form form button:hover{
+    background-color: #19111a;
+    color: #FAC7BE;
+    border: .1rem dotted #fac7be;
+    transform: scale(1.2);
+ }
+
+ footer{
+    background-color:#19111a;
+    padding: 5rem;
+ }
+
+/* Loader de carregamento */
+
+section#contato div#carregamento{
+    display: none; /* Deixa o display none para não aparecer até que você clique no botão enviar (ver JS) */
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+  }
+  
+  section#contato div#carregamento p{
+    color: #F06262;
+    font-weight: 700;
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  section#contato div#carregamento div#loader{
+    border: 13px solid #F06262;
+    border-radius: 50%;
+    border-top: 13px solid #19111a;
+    border-bottom: 13px solid #19111a;
+    width: 80px;
+    height: 80px;
+    /* Anima o elemento div#loader criando a variável spin, em 2s de forma linear e infinita */
+    animation: spin 2s linear infinite;
+  }
+  
+  /* Anima a variável spin do animation */
+  @keyframes spin {
+    0% {  /* Começa em 0% */
+      transform: rotate(0deg); /* Rotação do elemento no 0° */ 
+    } 
+    100% { /* Vai até 100% */
+      transform: rotate(360deg); /* Rotação do elemento em 360° */ 
+    }
+  }
+  
+ /* Página Send */
+
+section#success{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #fac7be;
+  }
+  
+  section#success div#card{
+    background-color: #fac7be;
+    text-align: center;
+    padding: 4rem;
+    border-radius: 2rem;
+    color: #19111a;
+    width: 40%;
+  }
+  
+  section#success div#card h1{
+    margin: 2rem 0rem;
+  }
+  
+  section#success div#card i{
+    font-size: 5rem;
+  }
+  
+  section#success div#card h3{
+    margin-bottom: 2rem;
+  }
+  
+  section#success div#card p{
+    margin-bottom: 3rem;
+    width: 100%;
+    word-break: break-word;
+  }
+  
+  section#success div#card a{
+    text-decoration: none;
+    padding: 1rem;
+    border: 1px solid #FAC7BE;
+    color:#19111a;
+    border-radius: .4rem;
+    transition: all .4s ease-out;
+  }
+  
+  section#success div#card a:hover{
+    background-color: #19111a;
+    color: #fac7be;
+  }
+  footer p {
+    min-height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer hr {
+    width: 60%;
+    margin: auto;
+    border: 0.2px solid #F06262;
+  }
+  
+  footer a#thiCodeLink {
+    text-decoration: none;
+    color: #19111a;
+  }
+  
+  footer a#thiCodeLink:hover {
+    color: #FAC7BE;
+  }
+  
+  footer {
+    margin-top: 3rem;
+  }
+  
